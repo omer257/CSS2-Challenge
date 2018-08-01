@@ -1,11 +1,14 @@
 .container {
-    border: 1px;
     padding: 20px;
-    border: 5px;
     width: 28%;
     height: 60%;
     margin-left: 35%;
     position: relative;
+    text-align: center;
+    direction: ltr;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+
 }
 .topContainer {
     background-color: rgb(179, 0, 0);
@@ -22,26 +25,30 @@
     margin-left: 17%;
 }
 .centerMe input{
-    margin-left: -9%;
+    width: 88%;
+    margin-left: -50px;
     margin-bottom: 1%;
-    padding: 3% 20%
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 3px;
 }
 .centerMe .btn{
-    margin-left: 17%;
+    margin-left: -20px;
     border-radius: 20px;
     padding: 2% 18%;
     margin-bottom: 35%;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
 }
 h3.centerMe{
-    margin-left: 26%;
+    margin-left: 26px;
     padding-top: 8%;
 }
 .headingText {
     color: white;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -68,15 +75,13 @@ img:before{
     margin-top: 10%;
     width: 86%;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 .bigBtn.centerMe {
-    margin-left: 8%
+    margin-left: 20px
 }
 .bottomHeading{
     padding-bottom: 10%;
-    margin-left: 2%;
+    margin-left: -50px;
     margin-top: 10%;
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
 }
