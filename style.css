@@ -1,0 +1,82 @@
+.container {
+    border: 1px;
+    padding: 20px;
+    border: 5px;
+    width: 28%;
+    height: 60%;
+    margin-left: 35%;
+    position: relative;
+}
+.topContainer {
+    background-color: rgb(179, 0, 0);
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+.bottomContainer {
+    background-color: darkred;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+.centerMe{
+    /* width: 30%; */
+    margin-left: 17%;
+}
+.centerMe input{
+    margin-left: -9%;
+    margin-bottom: 1%;
+    padding: 3% 20%
+}
+.centerMe .btn{
+    margin-left: 17%;
+    border-radius: 20px;
+    padding: 2% 18%;
+    margin-bottom: 35%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+h3.centerMe{
+    margin-left: 26%;
+    padding-top: 8%;
+}
+.headingText {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+img{
+    /* display: inline; */
+    width: 50px;
+    height: auto;
+    position: absolute;
+    right: 110px;
+    bottom: 185px;
+    box-shadow: 15px 20px 20px -20px #6e0909, 0 20px 0 -20px; 
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3) 0%, transparent 50%, transparent 100%);
+}
+img:before{
+    background: -moz-linear-gradient(center top, #FFFFFF, #FFFFFF 30%, rgba(255, 255, 255, 0.9) 65%, rgba(255, 255, 255, 0.7)) repeat scroll 0 0 padding-box, -moz-element(img) no-repeat scroll 0 -127px content-box rgba(0, 0, 0, 0);
+}
+.bigBtn {
+    padding: 1% 20% 3% 5%;
+    /* display: inline; */
+    max-height: 100px;
+    max-width: 550px;
+    text-align: center;
+    margin-top: 10%;
+    width: 86%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.bigBtn.centerMe {
+    margin-left: 8%
+}
+.bottomHeading{
+    padding-bottom: 10%;
+    margin-left: 2%;
+    margin-top: 10%;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
